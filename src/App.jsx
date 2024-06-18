@@ -1,26 +1,27 @@
 import ProfileCard from './components/ProfileCard';
 import './App.css'
+import image from './assets/profile-image.jpeg'
 
 function App() {
   const userProfile = {
-    name: 'John Doe',
-    image: '',
+    name: 'Danny',
+    image: image,
     bio: 'Web developer with a passion for creating amazing user experiences.',
-    age: 30
+    age: 22
   };
 
   const userProfile2 = {
-    name: 'John Doe',
-    image: './assets/profile-image',
-    bio: 'Web developer with a passion for creating amazing user experiences.',
+    name: 'Andrey',
+    image: image,
+    bio: 'A data scientist.',
     age: 30
   };
 
   const userProfile3 = {
-    name: 'John Doe',
-    image: 'https://via.placeholder.com/100',
-    bio: 'Web developer with a passion for creating amazing user experiences.',
-    age: 30
+    name: 'Santos',
+    image: image,
+    bio: 'Tech product reviewer.',
+    age: 28
   };
 
   return (
