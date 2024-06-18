@@ -32,3 +32,33 @@
     margin-bottom: 20px;
     justify-content: left;
 }
+
+ /* media screen */
+@media screen and (max-width: 375px) {
+    .profile-card {
+        width: 90%;
+        padding: 10px;
+        margin: 20px;
+        border-radius: 5px;
+        box-shadow: none;
+        background: linear-gradient(to bottom, rgb(21, 184, 248) 30%, rgb(194, 194, 214) 30%);
+    }
+
+    .profile-image {
+        width: 80px;
+        height: 80px;
+    }
+
+    .profile-name {
+        font-size: 1.2em;
+    }
+
+    .profile-age {
+        color: #fff;
+    }
+
+    .profile-bio {
+        font-size: 0.9em;
+        margin-bottom: 10px;
+    }
+}
