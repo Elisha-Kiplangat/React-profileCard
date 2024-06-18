@@ -1,0 +1,38 @@
+.profile-card {
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #dad1d1;
+    
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.profile-name {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.profile-bio {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* .profile-email {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.profile-email:hover {
+    text-decoration: underline;
+} */
