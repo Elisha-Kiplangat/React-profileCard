@@ -1,0 +1,20 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App{
+  display: grid;
+  grid-column: auto;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  justify-content: center;
+}
+@media screen and (max-width: 375px) {
+  .App{
+    display: flex;
+    flex-direction: column;
+
+  }
+}

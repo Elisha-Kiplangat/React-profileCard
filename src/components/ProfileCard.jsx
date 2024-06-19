@@ -1,4 +1,4 @@
-import './ProfileCard.css';
+import './ProfileCard.scss';
 
 const ProfileCard = ({ name, image, bio, age }) => {
   return (
